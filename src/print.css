@@ -1,0 +1,191 @@
+
+
+.ibaslik {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  td,
+  th {
+    border: 3px solid #eaecee;
+    text-align: center;
+  }
+
+  tr:nth-child(even) {
+    background-color: #eaecee;
+  }
+
+  th {
+    text-align: center;
+    background-color: #eaecee;
+    border: 3px solid rgb(178, 183, 183);
+    font-weight: 600;
+    padding: 0.5%;
+  }
+
+
+  .head {
+    font-weight: 600;
+  }
+
+  .tdd {
+    border: 3px solid rgb(239, 236, 236);
+    font-weight: 600;
+  }
+
+  @media (max-width: 1000px) {
+    .izinForm {
+      padding: 2%;
+      font-family: Calibri;
+    }
+  }
+
+  .izinForm {
+    max-width: 960px;
+    margin: auto;
+    padding: 3%;
+    min-height: 10vh;
+    background-color: #f5f6f7;
+    overflow: hidden;
+    border-radius: 2px;
+    font-weight: normal;
+    border-radius: 3px;
+    margin-top: 1%;
+    font-family: Calibri;
+  }
+
+  .footer {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    white-space: pre-wrap;
+    font-family: Calibri;
+  }
+
+  .approveButton {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+    white-space: pre-wrap;
+    column-gap: 4px;
+    min-width: 24%;
+    background-color: #0070f2;
+    border: none;
+    margin: 3%;
+    border-radius: 3px;
+    padding: 2%;
+    color: rgb(255, 255, 255);
+    font-size: 90%;
+    font-weight: normal;
+    font-family: Calibri;
+  }
+
+  .approveButton:hover {
+    background-color: #0550a5;
+    cursor: pointer;
+    font-family: Calibri;
+  }
+
+  .textArea {
+    border-radius: 3px;
+    width: 100%;
+    border: none;
+    margin-right: 0px;
+    margin-left: 0;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    min-height: 10vh;
+    resize: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Calibri;
+    font-weight: normal;
+    box-shadow: 1px 1px #bbbaba;
+    resize: none;
+  }
+
+  .table {
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 1px 1px #bbbaba;
+    border-spacing: 0;
+    font-weight: normal;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  @keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .loading-spinner {
+    width: 50px;
+    align-items: center;
+    height: 50px;
+    border: 10px solid rgb(161, 190, 231);
+    border-top: 10px solid rgb(187, 207, 235);
+    border-radius: 50%;
+    animation: spinner 1.5s linear infinite;
+  }
+
+  .spinner {
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+  }
+
+  .izinForm.disabled {
+    padding: 10px;
+    opacity: 4;
+    pointer-events: none;
+  }
+
+  p{
+    font-family: Calibri;
+    font-size: 13.3px;
+}
+
+Button{
+    font-family: Calibri;
+}
+
+.page-content{
+  font-family: Calibri;
+}
+  body {
+
+    margin-top: 0px;
+    font-family: Calibri;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #4c97a4;
+    background: linear-gradient(#2DA8B0, #164E81);
+    background-attachment: fixed;
+    }
+
+
+    .mutabakatcoloredtext{
+      background-color: white;
+      padding: 23px;
+      color: black;
+      font-size: 13.3px;
+      font-family: Calibri;
+  } 
+
